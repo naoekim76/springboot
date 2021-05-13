@@ -27,6 +27,10 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    /*
+     * lombok (롬복)
+     *  - Setter, Getter, Constructor, toString 메소드 등을 자동으로 생성해줌.
+     */
     compile('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
