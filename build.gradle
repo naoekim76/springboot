@@ -49,6 +49,11 @@ dependencies {
      * mustache : view 탬블릿 엔진 (서버, 클라이언트 모두 지원)
      */
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    /*
+     * - 소셜로그인 등 클라이언트 입장에서 소셜 기능 구현 시 필요한 의존성
+     * - spring-security-oauth2-client와 spring-security-oauth2-jose를 기본으로 관리해 줌
+     */
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
