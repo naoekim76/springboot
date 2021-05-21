@@ -3,5 +3,4 @@
 .idea
 buildspringboot\
 build\
-.gradle\
 application-oauth.properties
