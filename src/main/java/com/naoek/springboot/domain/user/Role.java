@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
 public enum Role {
 
     /*
-     * ROLE_ 접두어를 붙여서 키값을 설정해야 함.
+     * 반드시 ROLE_ 접두어를 붙여서 키값을 설정해야 함.
      */
     GUEST("ROLE_GUEST", "손님"),
     USER("ROLE_USER", "일반 사용자");
