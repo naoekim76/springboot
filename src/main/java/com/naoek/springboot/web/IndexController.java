@@ -24,7 +24,7 @@ public class IndexController {
         model.addAttribute("posts", postsService.findAllDesc());
 //        SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if (user != null) {
-            model.addAttribute("userName", user.getName());
+            model.addAttribute("loginUserName", user.getName()); // userName으로 하면 PC 이름이 뜸.
             model.addAttribute("userEmail", user.getEmail());
         }
         return "index";
